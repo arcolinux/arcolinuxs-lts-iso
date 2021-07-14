@@ -755,7 +755,8 @@ adobe-source-han-sans-cn-fonts
 #arco-calamares-config-xl-git
 #arco-calamares-config-xl-git-git
 #arco-calamares-config-xl-dev-git
-arco-calamares-config-xs-git
+#arco-calamares-config-xs-git
+arco-calamares-config-xs-lts-git
 #arco-calamares-config-xl-next-git
 #arcod-calamares-config-git
 #arcod-calamares-config-git-git
@@ -896,3 +897,6 @@ menulibre
 ###########################################################################
 xfce4
 xfce4-goodies
+
+linux-lts
+linux-lts-headers
