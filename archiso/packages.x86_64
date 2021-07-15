@@ -165,7 +165,7 @@ mesa
 #bumblebee
 #optimus-manager
 #optimus-manager-qt
-nvidia
+#nvidia
 nvidia-utils
 nvidia-settings
 #libva-intel-driver
@@ -900,3 +900,5 @@ xfce4-goodies
 
 linux-lts
 linux-lts-headers
+
+nvidia-lts

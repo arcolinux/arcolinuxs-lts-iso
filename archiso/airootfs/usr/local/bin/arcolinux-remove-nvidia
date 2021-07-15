@@ -32,7 +32,7 @@ done
 selection=$(get_driver)
 echo "Selection was "$selection
 if [[ $selection == "free" ]]; then
-	pacman -R --noconfirm nvidia nvidia-utils nvidia-settings
+	pacman -R --noconfirm nvidia-lts nvidia-utils nvidia-settings
 fi
 
 echo "#################################"
