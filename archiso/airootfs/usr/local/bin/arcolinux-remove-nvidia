@@ -32,7 +32,7 @@ do
     fi
 done
 
-# free = remove nvidia keep nouveau
+# free = remove nvidia-lts keep nouveau
 selection=$(get_driver)
 echo "#################################"
 echo "Selection was "$selection
@@ -41,22 +41,22 @@ if [[ $selection == "free" ]]; then
 	pacman -R --noconfirm nvidia-lts nvidia-utils nvidia-settings
 fi
 
-#freenonouveau = remove nvidia and nouveau
+#freenonouveau = remove nvidia-lts and nouveau
 selection=$(get_driver)
 echo "#################################"
 echo "Selection was "$selection
 echo "#################################"
 if [[ $selection == "freenonouveau" ]]; then
-	pacman -R --noconfirm nvidia nvidia-utils nvidia-settings
+	pacman -R --noconfirm nvidia-lts nvidia-utils nvidia-settings
 	pacman -R --noconfirm xf86-video-nouveau
 fi	
 
-#nonfree = keepin nvidia and nouveau
+#nonfree = keepin nvidia-lts and nouveau
 selection=$(get_driver)
 echo "Selection was "$selection
 if [[ $selection == "nonfree" ]]; then
 	echo "#################################"
-	echo "We keep nvidia and nouveau onboard"
+	echo "We keep nvidia-lts and nouveau onboard"
 	echo "#################################"
 fi	
 
