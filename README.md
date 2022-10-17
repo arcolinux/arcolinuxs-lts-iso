@@ -1,2 +1,2 @@
-# arcolinuxs-iso
+# arcolinuxs-lts-iso
 
