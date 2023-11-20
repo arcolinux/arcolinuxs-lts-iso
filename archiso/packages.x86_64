@@ -919,3 +919,5 @@ xfce4-goodies
 
 linux-lts
 linux-lts-headers
+
+mkinitcpio-firmware
