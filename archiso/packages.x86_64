@@ -938,3 +938,6 @@ linux-lts
 linux-lts-headers
 
 mkinitcpio-firmware
+
+## chaotics-aur
+#flat-remix
